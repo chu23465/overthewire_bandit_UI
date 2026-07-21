@@ -4,7 +4,7 @@
     const LEVEL = levelMatch ? parseInt(levelMatch[1]) : null;
     const MAX_LEVEL = 34;
     let GITHUB = true;
-    if {GITHUB === true) {document.head.innerHTML.replace(`<link rel='shortcut icon' href='https://overthewire.org/img/favicon.ico' />
+    if (GITHUB === true) {document.head.innerHTML.replace(`<link rel='shortcut icon' href='https://overthewire.org/img/favicon.ico' />
   <link rel="stylesheet" href="https://overthewire.org/css/style.css" type="text/css" media="screen" />
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pontano+Sans|Maven+Pro&subset=latin,latin-ext" rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="https://overthewire.org/css/highlightcode.css" />
