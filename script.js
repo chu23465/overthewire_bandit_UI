@@ -6,22 +6,19 @@
     let GITHUB = true;
     if {GITHUB === true) {document.head.innerHTML.replace(`<link rel='shortcut icon' href='https://overthewire.org/img/favicon.ico' />
   <link rel="stylesheet" href="https://overthewire.org/css/style.css" type="text/css" media="screen" />
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pontano+Sans|Maven+Pro&subset=latin,latin-ext" rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://overthewire.org/css/highlightcode.css">
-  <link rel="stylesheet" href="https://overthewire.org/css/patreon.css">
-  <script src="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pontano+Sans|Maven+Pro&subset=latin,latin-ext" rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="https://overthewire.org/css/highlightcode.css" />
+  <link rel="stylesheet" href="https://overthewire.org/css/patreon.css" />
   <script src="https://overthewire.org/js/jquery-3.7.1.min.js"></script>
   <script src="https://overthewire.org/js/mustache-4.0.0.min.js"></script>
   <script src="https://overthewire.org/js/highlight.min.js"></script>
   <script src="https://overthewire.org/js/otwcrap.js"></script>
   <script src="https://overthewire.org/js/updatedmarkers.js"></script>`,
-`
-  <link rel='shortcut icon' href='https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/img/favicon.ico' />
+`<link rel='shortcut icon' href='https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/img/favicon.ico' />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/css/style.css" type="text/css" media="screen" />
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Pontano+Sans|Maven+Pro&subset=latin,latin-ext" rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/css/highlightcode.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/css/patreon.css" />
-  <script src="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/script.js"></script>	
   <script src="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/js/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/js/mustache-4.0.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/chu23465/overthewire_bandit_UI/js/highlight.min.js"></script>
