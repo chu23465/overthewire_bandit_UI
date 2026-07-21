@@ -192,7 +192,7 @@ canvas#gits-matrix{position:fixed;inset:0;z-index:0;opacity:.22;}
     <a href="https://explainshell.com/" style="border-color:var(--neon);color:var(--neon);box-shadow:0 0 10px rgba(0,255,200,.25)" rel="noopener noreferrer" target="_blank"><b>EXPLAIN COMMAND</b></a>
     `;
     for (let i = 0; i <= MAX_LEVEL; i++) {
-        const href = sideLinks[i] || `bandit${i}.html`;
+        const href = sideLinks[i].replace("/wargames/bandit", "") || `bandit${i}.html`;
         const cur = (!IS_INDEX && i === LEVEL) ? ' style="border-color:var(--neon);color:var(--neon);box-shadow:0 0 10px rgba(0,255,200,.25)"' : '';
         gridHTML += `<a href="${href}"${cur}>LEVEL ${String(i).padStart(2,'0')}</a>`;
     }
